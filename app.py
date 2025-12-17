@@ -8,5 +8,5 @@ st.set_page_config(
 
 )
 
-html_file=Path("Index.htmnl").read_text(encoding="utf-8")
+html_file=Path("index.htmnl").read_text(encoding="utf-8")
 st.components.v1.html(html_file,height=900,scrolling=True)
